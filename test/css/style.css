@@ -1,0 +1,148 @@
+body{
+    background-color: #f6f6f6;
+}
+
+/* header */
+.page-header{
+    border-top: 8px solid #74cccc;
+}
+.nav-top{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-img{
+    margin-top: 3rem;
+}
+.nav-content div{
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+.nav-content p{
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+}
+.nav-content span{
+    text-align: center;
+    font-size: 0.75rem;
+    border:  0.1rem solid darkgrey;
+}
+.nav-item{
+    margin-top: 0.75rem;
+    margin-right: 20%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-item a{
+    text-decoration: none;
+    background-color: #9de4dc;
+    color: white;
+    text-align: center;
+}
+.nav-item a:hover{
+    background-color: #94dbda;
+}
+
+/* main-content */
+.main-content{
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 20%;
+    margin-left: 20%;
+
+}
+/* side-article */
+.side-article{
+    width: 29vw;
+    margin-right: 1rem;
+}
+.side-article a{
+    text-decoration: none;
+    color: black;
+}
+.side-article a:hover{
+    color: #74cccc;
+}
+.side-title{
+    background-color: #9de4dc;
+    color: white;
+    margin: 0 0 ;
+}
+/* ordinary */
+.ordinary{
+    background-color: white;
+    border: 2px solid #74cccc;
+}
+.ordinary div{
+    border-bottom: 0.1rem solid #74cccc;
+    padding: 0.5rem 1rem;
+}
+/* addition */
+.addition{
+    background-color: white;
+    margin-top: 2rem;
+    border: 2px solid #74cccc;
+}
+.addition div{
+    border-bottom: 0.1rem solid #74cccc;
+    padding: 0.5rem 1rem;
+
+}
+
+/* article */
+.article{
+    width: 76vw;
+}
+.news{
+    background-color: white;
+    /*padding: 1rem 1rem;*/
+}
+.news-title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-bottom: 3px solid #74cccc;
+}
+.item-content{
+    margin-top: 2rem;
+}
+.item{
+    display: inline-flex;
+    padding: 1rem 1rem;
+}
+.date{
+    width: 20%;
+}
+.message{
+    width: 80%;
+}
+/* footer */
+footer{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    background-color: #74cccc;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-item{
+    margin: 0 2rem;
+}
+
+.footer-address{
+    text-align: right;
+}
+.copy{
+    border-top: 2px solid #74cccc;
+    text-align: center;
+}
