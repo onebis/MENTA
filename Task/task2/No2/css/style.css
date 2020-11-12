@@ -1,0 +1,32 @@
+.main-content{
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.main-content p{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.content-a{
+    background-color: darkgrey;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.content-a p{
+    margin: 145px 0;
+}
+.content-b{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+.content-b p{
+    margin: 145px 0;
+}
