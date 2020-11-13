@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+margin:0;
+color:#313131;
+}
+li {
+  list-style-type: none;
+}
+img{
+outline:none;
+border-style:none;
+width: 80px;
+height: 80px;
+}
+.wrap {
+  width: 1000px;
+  padding: 40px;
+  margin: 60px auto 0;
+  background: #E9E9E9;
+}
+h1 {
+  border-left: 3px solid #313131;
+  padding-left: 20px;
+  font-size: 22px;
+}
+.flex_area0 {
+  margin-top: 80px;
+}
+.flex_area0  ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* ここから記述してください */
+

@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b77722-5d7f-4c94-a379-793daf77d125" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/task2/No4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task2/No4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1kBVDXRS7Hy8wQLjQIFASZXpX82" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="追加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,11 +42,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task3" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\minoruhoriuchi\Development\MENTA\Task\task3" />
+      <recent name="C:\Users\minoruhoriuchi\Development\MENTA\Task\task3\No1" />
+      <recent name="C:\Users\minoruhoriuchi\Development\MENTA\Task" />
       <recent name="C:\Users\minoruhoriuchi\Development\MENTA\Task\task2" />
     </key>
   </component>
@@ -56,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605173852853</updated>
-      <workItem from="1605173854398" duration="5333000" />
+      <workItem from="1605173854398" duration="10147000" />
+      <workItem from="1605254731004" duration="11046000" />
     </task>
     <servers />
   </component>
@@ -73,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

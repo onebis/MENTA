@@ -1,0 +1,36 @@
+.wrap{
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+}
+
+img{
+    outline:none;
+    border-style:none;
+    width: 80px;
+    height: 80px;
+}
+.flex_area0{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    text-align: center;
+}
+li{
+    width: 160px;
+    height: 160px;
+    list-style-type: none;
+    margin-right: 20px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*span {*/
+/*    vertical-align: middle;*/
+/*}*/
