@@ -22,6 +22,7 @@
     <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coding1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <updated>1605531510330</updated>
       <workItem from="1605531511353" duration="8351000" />
       <workItem from="1605572072148" duration="8199000" />
-      <workItem from="1605591694548" duration="458000" />
+      <workItem from="1605591694548" duration="1941000" />
     </task>
     <servers />
   </component>

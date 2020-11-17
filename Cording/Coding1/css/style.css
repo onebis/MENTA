@@ -4,13 +4,8 @@ html {
     font-size: 100%;
 }
 body {
-    font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
-
+    font-family: "Hiragino Kaku Gothic Pro",
+    "Hiragino Kaku Gothic ProN";
 }
 
 /* ナビゲーション
@@ -25,7 +20,7 @@ body {
     color: darkgrey;
     font-weight: normal;
     border: 1px solid gainsboro;
-    font-size: 1.125rem;
+    font-size: 35px;
     padding: 10px 40px;
     margin: 10px 10px ;
 }
@@ -33,7 +28,7 @@ body {
 .main-nav {
     display: flex;
     justify-content: space-between;
-    /*font-size: 0.5rem;*/
+    font-size: 15px;
 }
 .main-nav li {
     list-style: none;
@@ -72,7 +67,7 @@ body {
     position: absolute;
     padding-top: 250px;
     padding-left: 900px;
-    font-size: 3rem;
+    font-size: 67px;
 }
 .top-content{
     position: absolute;
@@ -83,7 +78,7 @@ body {
 }
 .top-text p{
     margin-right: 1rem;
-    /*font-size: 0.75rem;*/
+    font-size: 21px;
 }
 
 /* content1
@@ -108,7 +103,7 @@ body {
     flex-wrap: wrap;
 }
 .card-text p{
-    /*font-size: 0.75rem;*/
+    font-size: 15px;
     margin-right: 1rem;
 }
 
@@ -132,6 +127,7 @@ body {
 }
 .content-title{
     text-align: center;
+    font-size: 26px;
 }
 .content-text{
     margin-top: 38px;
@@ -139,7 +135,7 @@ body {
     flex-wrap: wrap;
 }
 .content-text p{
-    /*font-size: 0.75rem;*/
+    font-size: 14px;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -153,7 +149,7 @@ body {
     flex-wrap: wrap;
 }
 .content3-text p{
-    /*font-size: 0.75rem;*/
+    font-size: 14px;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -166,6 +162,10 @@ body {
     margin-right: auto;
     width: 60vw
 }
+.news-title{
+    text-align: center;
+    font-weight: bold;
+}
 .news-content{
     margin-top: 66px;
 }
@@ -175,6 +175,7 @@ body {
     border-bottom: 0.1rem solid #DEDEDE;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    font-size: 14px;
 }
 .news-items li span{
     margin-right: 107px;
@@ -218,9 +219,11 @@ body {
 }
 .company{
     margin-bottom: 27px;
+    font-size: 18px;
 }
 .address{
     margin-bottom: 0.5rem;
+    font-size: 13px;
 }
 .contact-items {
     display: flex;
@@ -230,6 +233,7 @@ body {
 .contact-items li {
     list-style: none;
     margin: 1rem ;
+    font-size: 15px;
 }
 .contact-items li a{
     text-decoration: none;
@@ -243,6 +247,7 @@ footer{
     background-color: #6A6A6A;
     color: white;
     position: relative;
+    font-size: 12px;
 }
 .footer-text{
     position: absolute;
