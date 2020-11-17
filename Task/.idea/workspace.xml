@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/task3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaScript/ec-app" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,6 +63,7 @@
       <updated>1605173852853</updated>
       <workItem from="1605173854398" duration="10147000" />
       <workItem from="1605254731004" duration="11046000" />
+      <workItem from="1605320682255" duration="630000" />
     </task>
     <servers />
   </component>
@@ -80,5 +81,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605336820835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.201.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605336820835" />
   </component>
 </project>

@@ -1,0 +1,259 @@
+/* 共通部分
+------------------------------- */
+body {
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+html {
+    font-size: 100%;
+}
+
+/* ナビゲーション
+------------------------------- */
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.company_name{
+    color: darkgrey;
+    font-weight: normal;
+    border: 1px solid gainsboro;
+    font-size: 1.125rem;
+    padding: 10px 40px;
+    margin: 10px 10px ;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+}
+.main-nav li {
+    list-style: none;
+    margin: 1rem ;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* トップ画面
+------------------------------- */
+.wrapper{
+    position: relative;
+    background-image: url("../images/austin-distel-rxpThOwuVgE-unsplash.png");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*background-color: rgba(0,0,0,0.4);*/
+    background-color: rgba(0,0,0,0.5); /*半透明のフィルターをかける*/
+}
+
+.top{
+    color: white;
+}
+.top h2 {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 900px;
+    font-size: 3rem;
+}
+.top-content{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 400px;
+    padding-left: 900px;
+}
+.top-text p{
+    margin-right: 1rem;
+    font-size: 0.5rem;
+    /*position: absolute;*/
+    /*padding-top: 40%;*/
+    /*padding-left: 45%;*/
+    /*margin-top: 5rem;*/
+}
+
+/* content1
+------------------------------- */
+
+.content1{
+    margin: 100px;
+}
+.content-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.card img{
+    height: 281px;
+    width: 375px;
+}
+.card-text{
+    width: 375px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.card-text p{
+    font-size: 0.75rem;
+    margin-right: 1rem;
+}
+
+/* content2
+------------------------------- */
+.content{
+    margin: 50px;
+}
+.content-flex-between{
+    margin-left: 35px;
+    margin-left: 51px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-title{
+    font-weight: bold;
+}
+.content-flex-between img{
+    width: 630px;
+    height: 400px;
+}
+.content-title{
+    text-align: center;
+}
+.content-text{
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-text p{
+    font-size: 0.75rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+/* content3
+------------------------------- */
+.content3{
+    margin-top: 150px;
+}
+.content3-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content3-text p{
+    font-size: 0.75rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* news
+------------------------------- */
+.news{
+    margin-top: 206px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw
+}
+.news-content{
+    margin-top: 66px;
+}
+.news-items{
+}
+.news-items li {
+    display: flex;
+    list-style: none;
+    border-bottom: 0.1rem solid #DEDEDE;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.news-items li span{
+    margin-right: 107px;
+}
+/* banner
+------------------------------- */
+.banner{
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-items{
+    width: 400px;
+    height: 122px;
+    border: 0.1rem solid #707070;
+    position: relative;
+
+}
+.banner-items span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* contact
+------------------------------- */
+.contact{
+    background-color: #EBEBEB;
+    width: 100vw;
+    height: 289px;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 263px;
+}
+.company{
+    margin-bottom: 27px;
+}
+.address{
+    margin-bottom: 0.5rem;
+}
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-items li {
+    list-style: none;
+    margin: 1rem ;
+}
+.contact-items li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer
+------------------------------- */
+footer{
+    height: 79px;
+    background-color: #6A6A6A;
+    color: white;
+    position: relative;
+}
+.footer-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
