@@ -1,5 +1,8 @@
 /* 共通部分
 ------------------------------- */
+html {
+    font-size: 100%;
+}
 body {
     font-family: "Helvetica Neue",
     Arial,
@@ -7,9 +10,7 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
-}
-html {
-    font-size: 100%;
+
 }
 
 /* ナビゲーション
@@ -32,7 +33,7 @@ html {
 .main-nav {
     display: flex;
     justify-content: space-between;
-    font-size: 0.5rem;
+    /*font-size: 0.5rem;*/
 }
 .main-nav li {
     list-style: none;
@@ -82,11 +83,7 @@ html {
 }
 .top-text p{
     margin-right: 1rem;
-    font-size: 0.5rem;
-    /*position: absolute;*/
-    /*padding-top: 40%;*/
-    /*padding-left: 45%;*/
-    /*margin-top: 5rem;*/
+    /*font-size: 0.75rem;*/
 }
 
 /* content1
@@ -111,7 +108,7 @@ html {
     flex-wrap: wrap;
 }
 .card-text p{
-    font-size: 0.75rem;
+    /*font-size: 0.75rem;*/
     margin-right: 1rem;
 }
 
@@ -142,7 +139,7 @@ html {
     flex-wrap: wrap;
 }
 .content-text p{
-    font-size: 0.75rem;
+    /*font-size: 0.75rem;*/
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -156,7 +153,7 @@ html {
     flex-wrap: wrap;
 }
 .content3-text p{
-    font-size: 0.75rem;
+    /*font-size: 0.75rem;*/
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -171,8 +168,6 @@ html {
 }
 .news-content{
     margin-top: 66px;
-}
-.news-items{
 }
 .news-items li {
     display: flex;
