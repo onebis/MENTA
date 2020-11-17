@@ -7,22 +7,26 @@ body {
     font-family: "Hiragino Kaku Gothic Pro",
     "Hiragino Kaku Gothic ProN";
 }
-
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* ナビゲーション
 ------------------------------- */
 .page-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    margin: 32px 41px 45px 30px;
 }
-.company_name{
-    color: darkgrey;
+.company-name{
     font-weight: normal;
     border: 1px solid gainsboro;
     font-size: 35px;
-    padding: 10px 40px;
-    margin: 10px 10px ;
+}
+.company-name a{
+    text-decoration: none;
+    color: darkgrey;
 }
 
 .main-nav {
@@ -32,7 +36,8 @@ body {
 }
 .main-nav li {
     list-style: none;
-    margin: 1rem ;
+    margin-left: 51px;
+    /*margin: 1rem ;*/
 }
 .main-nav li a{
     text-decoration: none;
@@ -41,7 +46,7 @@ body {
 
 /* トップ画面
 ------------------------------- */
-.wrapper{
+.top-wrapper{
     position: relative;
     background-image: url("../images/austin-distel-rxpThOwuVgE-unsplash.png");
     background-repeat:  no-repeat;
@@ -49,7 +54,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.wrapper:before {
+.top-wrapper:before {
     content: '';
     position: absolute;
     top: 0;
@@ -89,7 +94,7 @@ body {
 }
 .content-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .card img{
     height: 281px;
