@@ -7,6 +7,9 @@ body {
     font-family: "Hiragino Kaku Gothic Pro",
     "Hiragino Kaku Gothic ProN";
 }
+a{
+    text-decoration: none;
+}
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
@@ -21,18 +24,19 @@ body {
 }
 .company-name{
     font-weight: normal;
-    border: 1px solid gainsboro;
+    border: 1px solid #707070;
     font-size: 35px;
+    padding: 9px 91px 11px 62px;
 }
 .company-name a{
-    text-decoration: none;
-    color: darkgrey;
+    color: #707070;
 }
 
 .main-nav {
     display: flex;
     justify-content: space-between;
     font-size: 15px;
+
 }
 .main-nav li {
     list-style: none;
@@ -40,7 +44,6 @@ body {
     /*margin: 1rem ;*/
 }
 .main-nav li a{
-    text-decoration: none;
     color: black;
 }
 
@@ -195,6 +198,9 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.banner-content a{
+    color: black;
+}
 .banner-items{
     width: 400px;
     height: 122px;
@@ -241,7 +247,6 @@ body {
     font-size: 15px;
 }
 .contact-items li a{
-    text-decoration: none;
     color: black;
 }
 
