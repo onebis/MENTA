@@ -277,6 +277,9 @@ a{
 
 /* footer
 ------------------------------- */
+.footer-wrapper{
+     width: 100%;
+}
 footer{
     height: 79px;
     background-color: #6A6A6A;
