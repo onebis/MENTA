@@ -72,6 +72,7 @@ a{
 .greeting{
     background-image: url("../images/greeting_bg1.png");
     height: 500px;
+    margin-bottom: 261px;
 }
 .greeting-text{
     margin: 0 auto;
@@ -91,20 +92,20 @@ a{
 /* cards
 ------------------------------- */
 .cards{
-    margin-top: 94px;
-    /*padding-left: 113px;*/
-    /*padding-right: 113px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 895px;
 }
 .cards{
     background-color: #f2ebf1;
 }
 .card{
+    margin-top: -169px;
     display: flex;
     flex-direction: column;
     width: 358px;
+    height: 446px;
     margin-bottom: 70px;
 }
 .card-img{
