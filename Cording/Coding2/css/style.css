@@ -92,10 +92,16 @@ a{
 /* cards
 ------------------------------- */
 .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
+
     height: 895px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .cards{
     background-color: #f2ebf1;
