@@ -97,17 +97,19 @@ a{
     /*flex-wrap: wrap;*/
 
     height: 895px;
+    position: relative;
 }
 .card-content{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    position: absolute;
+    top: -100px;
 }
 .cards{
     background-color: #f2ebf1;
 }
 .card{
-    margin-top: -169px;
     display: flex;
     flex-direction: column;
     width: 358px;
