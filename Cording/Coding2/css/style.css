@@ -125,8 +125,10 @@ a{
     margin-bottom: 38px;
     text-align: center;
 }
-.card img{
-    margin: 0 auto;
+.card a{
+    text-align: center;
+}
+.card a img{
     width: 226px;
     height: 60px;
 }
