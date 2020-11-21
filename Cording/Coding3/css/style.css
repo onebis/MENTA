@@ -130,6 +130,10 @@ nav{
     background: #019bdf;
     width: 80px;
     text-align: center;
+    line-height:24px;
+}
+.news-text a{
+    color: black;
 }
 
 /* footer
