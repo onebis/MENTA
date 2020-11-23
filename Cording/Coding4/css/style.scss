@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'BodoniBook';
+    src: url(../font/BodoniBook.otf);
+}
+
+
+//カラー
+$cBlack: #333333;
+$cWhite: white;
+
+//フォントサイズ
+$fRegular: 15px;
+$fTitle: 36px;
+$fMainTitle: 186px;
+$fMainSub: 24px;
+$fMainText: 18px;
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "BodoniBook";
+}
+
+a{
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* ナビゲーション
+------------------------------- */
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+    width: 1300px;
+    margin: 0 auto;
+
+
+    & .main-nav {
+        height: 96px;
+        width: 375px;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        & li{
+            list-style: none;
+            & a{
+                color: $cBlack;
+                &:hover{
+                    color: #019bdf;
+                }
+            }
+        }
+    }
+    & a{
+        color: $cBlack;
+        h1{
+            font-size: $fTitle;
+            font-weight: bold;
+            text-transform: uppercase;
+            &:hover{
+                color: #019bdf;
+            }
+        }
+    }
+}
+/* メイン
+------------------------------- */
+.main{
+    position: relative;
+    height: 710px;
+
+    &>img{
+        position: absolute;
+    }
+    & .main-title{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateY(-50%) translateX(-50%) rotate(-5.1deg);
+        color: $cWhite;
+        font-size: $fMainTitle;
+        transform-origin: 50% 50%;
+    }
+    & .main-text{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        color: $cBlack;
+        width: 200px;
+        text-align: center;
+
+        & .main-sub{
+            font-size: $fMainSub;
+            margin-bottom: 45px;
+        }
+        & .main-sub-text{
+            font-size: $fMainText;
+            border-bottom: 1px solid $cBlack;
+            width: 165px;
+            & a{
+                color: $cBlack;
+                &:hover{
+                    color: #019bdf;
+                }
+            }
+        }
+
+    }
+}
+/* roll
+------------------------------- */
+.roll-wrapper{
+    height: 90px;
+    margin-bottom: 33px;
+}
+
+.slider{
+    margin: 100px auto;
+    width: 80%;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    z-index: 1;
+    font-size: 30px;
+    color: #535252;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    z-index: 1;
+    font-size: 30px;
+    color: #535252;
+
+}
+.slick-dots{
+    height: 0px;
+}
+
+
+/* footer
+------------------------------- */
+.footer-wrapper{
+    width: 1200px;
+    height: 275px;
+    display: flex;
+    margin-top: -120px;
+
+    & .image{
+        width: 732px;
+        position: relative;
+
+        & .bgA{
+            position: absolute;
+            top: 175px;
+            left: 200px;
+            background-color: #f5f0e9;
+            height: 220px;
+            width: 600px;
+        }
+        & .bgB{
+            position: absolute;
+            top: 125px;
+            left: 230px;
+            background-color: #e2e2e2;
+            height: 270px;
+            width: 700px;
+        }
+    }
+
+    & .footer-text{
+        margin-left: 237px;
+        margin-top: 157px;
+        & .title{
+            font-size: 20px;
+        }
+        & .footer-title{
+            font-size: 64px;
+            margin-bottom: -16px;
+            margin-top: -25px;
+        }
+        & .footer-sub{
+            font-size: 18px;
+        }
+        & .footer-discover{
+            margin-top: 48px;
+            font-size: 15px;
+            border-bottom: 1px solid $cBlack;
+            width: 55px;
+            & a{
+                color: $cBlack;
+                &:hover{
+                    color: #019bdf;
+                }
+            }
+        }
+    }
+}
