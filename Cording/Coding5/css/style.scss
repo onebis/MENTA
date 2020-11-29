@@ -59,10 +59,13 @@ li{
         margin: 48px auto;
         display: flex;
         justify-content: space-around;
-        & >.nav-item{
-            font-family: Quicksand;
-            font-weight: bold;
+        & li{
+            & >.nav-item{
+                font-family: Quicksand;
+                font-weight: bold;
+            }
         }
+
     }
 }
 
