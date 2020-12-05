@@ -1,0 +1,174 @@
+
+//カラー
+$cBlack: #1e0606;
+$cKey:#bfa34c;
+$cWhite: #f3f3f3;
+
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Quicksand";
+    background-color: $cWhite;
+}
+
+a{
+    text-decoration: none;
+    color: $cBlack;
+}
+li{
+    list-style: none;
+}
+.wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+
+/* ヘッダー
+------------------------------- */
+.header{
+    &__inner{
+        height: 126px;
+        background-color: #eaaf46;
+        position: relative;
+        & a{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            & img{
+                margin: 0 44px;
+            }
+        }
+    }
+}
+
+/* メイン
+------------------------------- */
+.main{
+    &__title{
+        text-align: center;
+        color: #eaaf46;
+        font-size: 80px;
+        margin-top: 40px;
+    }
+    &__sub{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    &__img{
+        height: 371px;
+        width: 696px;
+        margin: 0 auto;
+    }
+}
+/* new
+------------------------------- */
+.new{
+    margin-top: 58px;
+    width: 696px;
+    &__title{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+    &__article{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 41px;
+
+    }
+    &__img{
+        & img{
+            width: 336px;
+            height: 225px;
+        }
+    }
+    &__text{
+        & .text-inner-right{
+            margin-left: 23px;
+            margin-top: 35px;
+        }
+        & .text-inner-left{
+            margin-right: 23px;
+            margin-top: 35px;
+            position: relative;
+        }
+        & .title{
+            font-size: 25px;
+            margin-bottom: 22px;
+        }
+        & .sub-title{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        & .read{
+            background-color:  #eaaf46;
+            width: 186px;
+            height: 43px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 43px;
+            font-weight: bold;
+        }
+        & .read-right{
+            background-color:  #eaaf46;
+            width: 186px;
+            height: 43px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 43px;
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+
+    }
+}
+
+/* footer
+------------------------------- */
+.footer{
+
+    &__logo{
+        background-color:  #eaaf46;
+        height: 133px;
+        & > span{
+            display: block;
+            text-align: center;
+            padding-top: 37px; //なぜmargin-topが効かない？？
+            padding-bottom: 25px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    &__icon{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 352px;
+    }
+    &__ul{
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__li > a{
+        font-size: 16px;
+        font-weight: bold;
+        &:hover{
+            border-bottom: 1px solid black;
+        }
+    }
+
+}
+

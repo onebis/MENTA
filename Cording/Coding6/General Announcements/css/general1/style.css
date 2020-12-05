@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* 共通部分
+------------------------------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Quicksand";
+  background-color: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+  color: #1e0606;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* ヘッダー
+------------------------------- */
+.header__inner {
+  height: 126px;
+  background-color: #eaaf46;
+  position: relative;
+}
+.header__inner a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header__inner a img {
+  margin: 0 44px;
+}
+
+/* メイン
+------------------------------- */
+.main__title {
+  text-align: center;
+  color: #eaaf46;
+  font-size: 80px;
+  margin-top: 40px;
+}
+.main__sub {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+.main__img {
+  height: 371px;
+  width: 696px;
+  margin: 0 auto;
+}
+
+/* new
+------------------------------- */
+.new {
+  margin-top: 58px;
+  width: 696px;
+}
+.new__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.new__article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41px;
+}
+.new__img img {
+  width: 336px;
+  height: 225px;
+}
+.new__text .text-inner-right {
+  margin-left: 23px;
+  margin-top: 35px;
+}
+.new__text .text-inner-left {
+  margin-right: 23px;
+  margin-top: 35px;
+  position: relative;
+}
+.new__text .title {
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+.new__text .sub-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.new__text .read {
+  background-color: #eaaf46;
+  width: 186px;
+  height: 43px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 43px;
+  font-weight: bold;
+}
+.new__text .read-right {
+  background-color: #eaaf46;
+  width: 186px;
+  height: 43px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 43px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+}
+
+/* footer
+------------------------------- */
+.footer__logo {
+  background-color: #eaaf46;
+  height: 133px;
+}
+.footer__logo > span {
+  display: block;
+  text-align: center;
+  padding-top: 37px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer__icon {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+.footer__ul {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__li > a {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer__li > a:hover {
+  border-bottom: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
