@@ -1,0 +1,248 @@
+
+//カラー
+$cBlack: #1e0606;
+$cKey:#bfa34c;
+$cWhite: #f3f3f3;
+$cBlue: #0085cf;
+
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Quicksand";
+    background-color: $cWhite;
+}
+
+a{
+    text-decoration: none;
+    color: $cBlack;
+}
+li{
+    list-style: none;
+}
+.wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+
+/* ヘッダー
+------------------------------- */
+.header{
+    &__inner{
+        height: 126px;
+        background-color: $cBlue;
+        position: relative;
+        & a{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            & img{
+                margin: 0 44px;
+            }
+        }
+    }
+}
+
+/* メイン
+------------------------------- */
+.main{
+    &__inner{
+        margin-top: 35px;
+    }
+    &__img{
+        position: relative;
+        & img{
+            width: 100%;
+            height: 100%;
+
+        }
+        & .bg{
+            width: 560px;
+            height: 160px;
+            background-color: rgba(255, 255, 255,.9);
+            border-radius: 15px;
+            position:absolute;
+            top:50%;
+            left: 50%;
+            transform: translateY(-50%)
+            translateX(-50%);
+
+            & > .title{
+                text-align: center;
+                color: $cBlue;
+                font-size: 35px;
+                margin-top: 29px;
+            }
+            & > .sub{
+                text-align: center;
+                font-weight: bold;
+                font-size: 23px;
+                margin-top: 8px;
+            }
+
+        }
+    }
+
+}
+/* content
+------------------------------- */
+.content{
+    margin-top: 47px;
+    //width: 696px;
+    &__title{
+        font-size: 30px;
+        font-weight: bold;
+        color: $cBlue;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    &__article{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 41px;
+
+        & .article{
+            & .img{
+                margin-bottom: 22px;
+                & img{
+                    width: 215px;
+                    height: 215px;
+                }
+            }
+            & .title{
+                font-size: 20px;
+                margin-bottom: 12px;
+                font-weight: bold;
+            }
+            & .read{
+                background-color:  $cBlue;
+                width: 111px;
+                height: 31px;
+                font-size: 15px;
+                text-align: center;
+                border-radius: 10px;
+                line-height: 31px;
+                font-weight: bold;
+                & a{
+                    display: block;
+                    color: $cWhite;
+                }
+            }
+
+        }
+    }
+}
+/* message
+------------------------------- */
+.message{
+    &__text{
+        background-color: $cBlue;
+        height: 100px;
+        width: 760px;
+        border-radius: 13px;
+        padding: 15px;
+        margin-bottom: 42px;
+        & .title{
+            font-size: 20px;
+            color: $cWhite;
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        & .sub-title{
+            font-size: 15px;
+            color: $cWhite;
+        }
+    }
+}
+/* updates
+------------------------------- */
+.updates{
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        color: $cBlue;
+        margin-bottom: 30px;
+    }
+    &__article{
+        margin-bottom: 36px;
+        display: flex;
+        & .article-img{
+            width: 296px;
+            height: 198px;
+        }
+        & .article{
+            margin: auto;
+            margin-left: 21px;
+            & .article-title{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            & .article-subtitle{
+                font-size: 18px;
+                margin-top: 14px;
+                margin-bottom: 14px;
+            }
+            & .article-read{
+                background-color:  $cBlue;
+                width: 111px;
+                height: 31px;
+                font-size: 15px;
+                text-align: center;
+                border-radius: 9px;
+                line-height: 31px;
+                font-weight: bold;
+                & a{
+                    display: block;
+                    color: $cWhite;
+                }
+            }
+
+        }
+    }
+}
+
+
+/* footer
+------------------------------- */
+.footer{
+
+    &__logo{
+        background-color:  $cBlue;
+        height: 133px;
+        & > span{
+            display: block;
+            text-align: center;
+            padding-top: 37px; //なぜmargin-topが効かない？？
+            padding-bottom: 25px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    &__icon{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 352px;
+    }
+    &__ul{
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__li > a{
+        font-size: 16px;
+        font-weight: bold;
+        &:hover{
+            border-bottom: 1px solid black;
+        }
+    }
+
+}
+
