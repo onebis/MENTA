@@ -143,6 +143,9 @@ li{
                 font-weight: bold;
                 color: $cWine;
             }
+            &:hover{
+                color: $cWine;
+            }
         }
         &:hover{
             background-color: $cGrayHover;
@@ -214,6 +217,7 @@ li{
     display: flex;
     justify-content: space-between;
     width: 80%;
+    margin-bottom: -150px;
 }
 /* aside
 ------------------------------- */
@@ -227,6 +231,7 @@ li{
                 font-size: 22px;
                 border-bottom: 1px solid $cWine;
                 font-weight: bold;
+                padding-top: 0;
             }
             & li{
                 & a{
@@ -240,7 +245,7 @@ li{
     }
 
 }
-/* aside
+/* article
 ------------------------------- */
 .article{
     width: 74%;

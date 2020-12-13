@@ -2,8 +2,11 @@
 //カラー
 $cBlack: #1e0606;
 $cKey:#bfa34c;
-$cWhite: #f3f3f3;
-$cBlue: #0085cf;
+$cWhite: white;
+$cWine: #952c3e;
+$cEme: #38bc9e;
+$cGray: #cccccc;
+$cGrayHover: #e2e2e2;
 
 
 /* 共通部分
@@ -24,7 +27,7 @@ li{
     list-style: none;
 }
 .wrapper {
-    max-width: 850px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -32,203 +35,304 @@ li{
 
 /* ヘッダー
 ------------------------------- */
-.header{
-    &__inner{
-        height: 126px;
-        background-color: $cBlue;
+.header-inner{
+    width: 80%;
+    margin: 27px auto 10px;
+}
+.header-inner{
+    &__company-info{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.header-logo{
+    display: flex;
+    &__img{
+        display: flex;
+    }
+    &__text{
+        margin-left: 17px;
+    }
+    &__name{
+        font-size: 30px;
+        display: block;
+    }
+    &__en{
+        font-size: 18px;
+        color: $cWine;
+    }
+}
+.header-contact{
+    display: flex;
+    align-items: center;
+
+    &__tel{
         position: relative;
-        & a{
+        width: 290px;
+        height: 60px;
+        color: $cEme;
+        font-size: 38px;
+        & .tel{
+            margin-left: 40px;
+        }
+        & .tel-bg{
+            position:absolute;
+            top: 15%;
+            left: 0;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: $cEme;
+        }
+        & .tel-logo{
             position: absolute;
             top: 50%;
-            transform: translateY(-50%);
-            & img{
-                margin: 0 44px;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            color: $cWhite;
+            font-size: 0.3em;
+        }
+    }
+    &__holiday{
+        position: absolute;
+        top: 45px;
+        right: 0;
+        font-size: 13px;
+    }
+    &__email{
+        width: 212px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background-color: $cWine;
+        margin-left: 20px;
+
+        & span{
+            //margin: 0 auto;
+            color: $cWhite;
+            font-size: 18px;
+            border: 1px solid white;
+            padding: 16px 38px;
+        }
+    }
+}
+.header{
+    &__nav{
+        align-items: center;
+        text-align: center;
+    }
+    &__ul{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__li{
+        width: 100%;
+        height: 60px;
+        & a{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .ja{
+                font-weight: bold;
+            }
+            .en{
+                font-weight: bold;
+                color: $cWine;
+            }
+            &:hover{
+                color: $cWine;
             }
         }
+        &:hover{
+            background-color: $cGrayHover;
+        }
+    }
+    &__line{
+        margin: auto 0;
+        height: 30px;
+        border-right: 1px solid $cGray;
+    }
+
+}
+
+/* contents-title
+------------------------------- */
+ .contents-title{
+     margin-bottom: 90px;
+    &__inner{
+        position: relative;
+        & img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    &__title{
+        position:absolute; top:50%;left: 50%;transform: translateY(-50%) translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & .title{
+            display: block;
+            font-weight: bold;
+            font-size: 36px;
+        }
+        & .title-en{
+            display: block;
+            color: $cWine;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        & .title-line{
+            position: relative;
+            & .diamond{
+                width: 9px;
+                height: 9px;
+                background: $cWine;
+                display: block;
+                transform:rotate(45deg);
+
+            }
+            & .line{
+                position:absolute; top:50%;left: 50%;transform: translateY(-50%) translateX(-50%);
+                width: 160px;
+                border: 1px solid $cWine;
+                display: block;
+            }
+
+        }
+
+
     }
 }
 
 /* メイン
 ------------------------------- */
 .main{
-    &__inner{
-        margin-top: 35px;
-    }
-    &__img{
-        position: relative;
-        & img{
-            width: 100%;
-            height: 100%;
-
-        }
-        & .bg{
-            width: 560px;
-            height: 160px;
-            background-color: rgba(255, 255, 255,.9);
-            border-radius: 15px;
-            position:absolute;
-            top:50%;
-            left: 50%;
-            transform: translateY(-50%)
-            translateX(-50%);
-
-            & > .title{
-                text-align: center;
-                color: $cBlue;
-                font-size: 35px;
-                margin-top: 29px;
-            }
-            & > .sub{
-                text-align: center;
-                font-weight: bold;
-                font-size: 23px;
-                margin-top: 8px;
-            }
-
-        }
-    }
-
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: -150px;
 }
-/* content
+
+/* article
 ------------------------------- */
-.content{
-    margin-top: 47px;
-    //width: 696px;
-    &__title{
-        font-size: 30px;
-        font-weight: bold;
-        color: $cBlue;
-        margin-bottom: 32px;
-        text-align: center;
-    }
-    &__article{
+.article{
+    width: 90%;
+    margin: 0 auto;
+
+
+    &__item{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 41px;
+        margin-bottom: 50px;
 
-        & .article{
-            & .img{
-                margin-bottom: 22px;
-                & img{
-                    width: 215px;
-                    height: 215px;
-                }
-            }
-            & .title{
-                font-size: 20px;
-                margin-bottom: 12px;
-                font-weight: bold;
-            }
-            & .read{
-                background-color:  $cBlue;
-                width: 111px;
-                height: 31px;
-                font-size: 15px;
-                text-align: center;
-                border-radius: 10px;
-                line-height: 31px;
-                font-weight: bold;
-                & a{
-                    display: block;
-                    color: $cWhite;
-                }
-            }
-
-        }
     }
-}
-/* message
-------------------------------- */
-.message{
     &__text{
-        background-color: $cBlue;
-        height: 100px;
-        width: 760px;
-        border-radius: 13px;
-        padding: 15px;
-        margin-bottom: 42px;
-        & .title{
-            font-size: 20px;
-            color: $cWhite;
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        & .sub-title{
-            font-size: 15px;
-            color: $cWhite;
-        }
-    }
-}
-/* updates
-------------------------------- */
-.updates{
-    &__title{
-        text-align: center;
-        font-size: 30px;
-        color: $cBlue;
-        margin-bottom: 30px;
-    }
-    &__article{
-        margin-bottom: 36px;
-        display: flex;
-        & .article-img{
-            width: 296px;
-            height: 198px;
-        }
-        & .article{
-            margin: auto;
-            margin-left: 21px;
-            & .article-title{
-                font-weight: bold;
-                font-size: 20px;
-            }
-            & .article-subtitle{
-                font-size: 18px;
-                margin-top: 14px;
-                margin-bottom: 14px;
-            }
-            & .article-read{
-                background-color:  $cBlue;
-                width: 111px;
-                height: 31px;
-                font-size: 15px;
-                text-align: center;
-                border-radius: 9px;
-                line-height: 31px;
-                font-weight: bold;
-                & a{
-                    display: block;
-                    color: $cWhite;
-                }
-            }
+        width: 50%;
 
+        & .article-header{
+            display: flex;
+            align-items: center;
+            height: 90px;
+
+
+            & .article-number{
+                width: 60px;
+                background-color: $cWine;
+                line-height: 90px;
+                text-align: center;
+                color: $cWhite;
+                font-size: 34px;
+            }
+            & .article-title{
+
+                margin-left: 20px;
+                color: $cWine;
+                font-size: 30px;
+                font-weight: bold;
+
+            }
+        }
+        & .article-text{
+            margin-top: 20px;
+            font-size: 16px;
+            padding-right: 50px;
+        }
+    }
+    &__img{
+        width: 50%;
+        & img{
+            width: 100%;
         }
     }
 }
+
 
 
 /* footer
 ------------------------------- */
 .footer{
+    margin-top: 260px;
+    position: relative;
+    z-index: 10;
+    background-color: $cGray;
+    height: 231px;
+
+    &__out{
+        position: absolute;
+        z-index: -5;
+        right: 63px;
+        top: -245px;
+        transform: rotate(60deg);
+        transform-origin:center center;
+        background-color: $cGray;
+        height: 500px;
+        width: 200px;
+
+    }
+    &__inner{
+        width: 80%;
+        margin: 100px auto 10px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 
     &__logo{
-        background-color:  $cBlue;
-        height: 133px;
-        & > span{
-            display: block;
-            text-align: center;
-            padding-top: 37px; //なぜmargin-topが効かない？？
-            padding-bottom: 25px;
-            font-size: 20px;
-            font-weight: bold;
+        display: flex;
+        align-items: center;
+        & img{
+            width: 72px;
+            height: 72px;
+        }
+        & .title{
+            margin: 0 25px;
+            font-size: 30px;
         }
     }
     &__icon{
-        margin: 0 auto;
         display: flex;
-        justify-content: space-between;
-        width: 352px;
+        & li{
+            height: 50px;
+            width: 50px;
+            background-color: $cWhite;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            margin-left: 10px;
+            font-size: 1.3em;
+            & a{
+                display: block;
+            }
+        }
+
     }
     &__ul{
         height: 90px;
@@ -236,12 +340,19 @@ li{
         justify-content: space-around;
         align-items: center;
     }
+
     &__li > a{
         font-size: 16px;
         font-weight: bold;
         &:hover{
             border-bottom: 1px solid black;
         }
+    }
+
+    &__line{
+        margin: auto 10px;
+        height: 26px;
+        border-right: 1px solid $cBlack;
     }
 
 }

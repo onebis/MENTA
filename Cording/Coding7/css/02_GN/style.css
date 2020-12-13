@@ -133,6 +133,9 @@ li {
   font-weight: bold;
   color: #952c3e;
 }
+.header__li a:hover {
+  color: #952c3e;
+}
 .header__li:hover {
   background-color: #e2e2e2;
 }
@@ -201,6 +204,7 @@ li {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin-bottom: -150px;
 }
 
 /* aside
@@ -214,6 +218,7 @@ li {
   font-size: 22px;
   border-bottom: 1px solid #952c3e;
   font-weight: bold;
+  padding-top: 0;
 }
 .aside .category__inner li {
   padding: 18px 0;
@@ -224,7 +229,7 @@ li {
   display: block;
 }
 
-/* aside
+/* article
 ------------------------------- */
 .article {
   width: 74%;

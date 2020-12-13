@@ -217,135 +217,73 @@ li{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-bottom: -150px;
-}
-/* aside
-------------------------------- */
-.aside{
-    width: 22%;
-    & .category{
-        margin-bottom: 50px;
-        &__inner{
-            li:nth-child(1){
-                text-align: center;
-                color: $cWine;
-                font-size: 22px;
-                border-bottom: 1px solid $cWine;
-                font-weight: bold;
-                padding-top: 0;
-            }
-            & li{
-                & a{
-                    display: block;
-                }
-                padding: 18px 0;
-                font-size: 16px;
-                border-bottom: 1px solid $cGray;
-            }
-        }
-    }
+    margin-bottom: -100px;
 
-    & .search{
-        margin-bottom: 50px;
-        &__inner{
-            li:nth-child(1){
-                text-align: center;
-                color: $cWine;
-                font-size: 22px;
-                border-bottom: 1px solid $cWine;
-                font-weight: bold;
-                margin-bottom: 18px;
-            }
-
-            & .searchbox{
-                display: flex;
-                align-items: center;
-                height: 65px;
-                width: 100%;
-                border: 5px solid $cGray;
-                color: $cWine;
-                line-height: 65px;
-                padding-left: 10px;
-
-                & .search-input{
-                    width: 95%;
-                    caret-color: auto;
-                    padding: 5px;
-                    &:focus{
-                        outline: none;
-                    }
-                }
-            }
-        }
-    }
-
-}
-/* article
-------------------------------- */
-.article{
-    width: 74%;
     &__inner{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+        width: 60%;
+        margin: 0 auto;
 
+    }
+    &__message{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+.form{
+    margin-top: 57px;
     &__item{
         display: flex;
-        flex-direction: column;
         align-items: center;
-        width: 419px;
-        & .article-img1 ,.article-img2 ,.article-img3, .article-img4, .article-img5, .article-img6{
-            position: relative;
-            width: 419px;
-            height: 289px;
-
-            & img{
-                width: 419px;
-                height: 280px;
-            }
-            & .img-text{
-                width: 90px;
-                height: 24px;
-                display: block;
-                position: absolute;
-                background-color: $cBlack;
-                text-align: center;
-                line-height: 24px;
-                color: $cWhite;
-                font-size: 12px;
-                top: 10px;
-                left: 10px;
-            }
-        }
-        .article-img1{
-            background-image: url("../../images/service__item-img.png");
-        }
-        .article-img2{
-            background-image: url("../../images/service__item-img02.png");
-        }
-        .article-img3{
-            background-image: url("../../images/service__item-img03.png");
-        }
-        .article-img4{
-            background-image: url("../../images/service__item-img.png");
-        }
-        .article-img5{
-            background-image: url("../../images/service__item-img.png");
-        }
-        .article-img6{
-            background-image: url("../../images/service__item-img02.png");
-        }
-
-        & .article-title{
-            font-size: 26px;
-            font-weight: bold;
+        margin-bottom: 30px;
+        & .title{
+            font-size: 16px;
+            width: 15%;
+            height: 50px;
+            line-height: 50px;
             color: $cWine;
         }
-        & .article-text{
-            padding: 29px;
+
+        & .requried{
             font-size: 16px;
+            width: 5%;
+            background-color: $cWine;
+            color: $cWhite;
+            text-align: center;
         }
+        & .not-requried{
+            font-size: 16px;
+            width: 5%;
+        }
+        & .input{
+            width: 80%;
+            margin-left: 22px;
+            & .text-form{
+                border: 1px solid $cGray;
+                caret-color: auto;
+                padding: 5px;
+                width: 100%;
+                &:focus{
+                    outline: none;
+                }
+            }
+            & .textarea{
+                border: 1px solid $cGray;
+                padding: 5px;
+                width: 100%;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+    & .button{
+
+        display: block;
+        width: 280px;
+        height: 64px;
+        background-color: $cBlack;
+        color: $cWhite;
+        margin: 50px auto 0;
 
     }
 }
