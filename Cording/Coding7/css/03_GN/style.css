@@ -48,7 +48,8 @@ li {
 }
 .header-logo__name {
   font-size: 30px;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .header-logo__en {
   font-size: 18px;
@@ -118,6 +119,22 @@ li {
 .header__li {
   width: 100%;
   height: 60px;
+  display: inline-block;
+  position: relative;
+}
+.header__li:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 30px;
+  background-color: #e2e2e2;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) translateX(-50%);
+}
+.header__li:nth-last-of-type(1):after {
+  content: none;
 }
 .header__li a {
   height: 100%;
@@ -138,11 +155,6 @@ li {
 }
 .header__li:hover {
   background-color: #e2e2e2;
-}
-.header__line {
-  margin: auto 0;
-  height: 30px;
-  border-right: 1px solid #cccccc;
 }
 
 /* contents-title
@@ -167,7 +179,9 @@ li {
   align-items: center;
 }
 .contents-title__title .title {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: bold;
   font-size: 36px;
 }
@@ -176,7 +190,7 @@ li {
   color: #952c3e;
   font-weight: bold;
   font-size: 14px;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 .contents-title__title .title-line {
   position: relative;
@@ -258,19 +272,14 @@ li {
   margin-top: 260px;
   position: relative;
   z-index: 10;
-  background-color: #cccccc;
+  background-color: #e2e2e2;
   height: 231px;
 }
 .footer__out {
   position: absolute;
-  z-index: -5;
-  right: 63px;
-  top: -245px;
-  transform: rotate(60deg);
-  transform-origin: center center;
-  background-color: #cccccc;
-  height: 500px;
-  width: 200px;
+  right: 0;
+  top: -100%;
+  transform: translateY(50%);
 }
 .footer__inner {
   width: 80%;
@@ -314,17 +323,31 @@ li {
   justify-content: space-around;
   align-items: center;
 }
-.footer__li > a {
+.footer__li {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+.footer__li:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #1e0606;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%) translateX(-50%);
+}
+.footer__li:nth-last-of-type(1):after {
+  content: none;
+}
+.footer__li a {
   font-size: 16px;
   font-weight: bold;
 }
-.footer__li > a:hover {
+.footer__li a:hover {
   border-bottom: 1px solid black;
-}
-.footer__line {
-  margin: auto 10px;
-  height: 26px;
-  border-right: 1px solid #1e0606;
 }
 
 /*# sourceMappingURL=style.css.map */

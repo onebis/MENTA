@@ -36,6 +36,15 @@
       <change beforePath="$PROJECT_DIR$/css/04_GN/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/04_GN/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/04_GN/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/04_GN/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/04_GN/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/04_GN/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/05_GN/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/05_GN/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/05_GN/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/05_GN/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/05_GN/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/05_GN/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/06_GN/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/06_GN/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/06_GN/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/06_GN/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/06_GN/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/06_GN/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/07_GN/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/07_GN/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/07_GN/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/07_GN/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/07_GN/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/07_GN/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +120,10 @@
       <workItem from="1607789643764" duration="2000" />
       <workItem from="1607822655886" duration="2566000" />
       <workItem from="1607825256044" duration="613000" />
-      <workItem from="1607826206485" duration="17055000" />
+      <workItem from="1607826206485" duration="17268000" />
+      <workItem from="1607852500973" duration="1000" />
+      <workItem from="1607919178689" duration="1505000" />
+      <workItem from="1607943496842" duration="8403000" />
     </task>
     <servers />
   </component>
