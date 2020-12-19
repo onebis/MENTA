@@ -52,7 +52,10 @@ a{
     position: relative;
     background-image: url("../images/austin-distel-rxpThOwuVgE-unsplash.png");
     background-repeat:  no-repeat;
-    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    max-width: 1400px;
+    width: 100%;
     height: 611px;
 }
 .top-wrapper:before {
@@ -70,22 +73,22 @@ a{
     width: 675px;
     height: 248px;
 }
-.top h2 {
+.top-wrapper h2 {
     position: absolute;
-    margin-left: 616px;
-    margin-top: 175px;
-    font-size: 67px;
-}
-.top-content{
-    position: absolute;
+    height: 100%;
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 616px;
-    margin-top: 285px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 42%;
+    font-size: 67px;
 
 }
-.top-text p{
+.top-content{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 21px;
+
 }
 
 /* content1
@@ -97,6 +100,7 @@ a{
 .content-flex{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .card img{
     height: 281px;
@@ -119,18 +123,13 @@ a{
 .content2{
     margin-top: 200px;
 }
-.content{
-    /*margin: 50px;*/
-}
-.content-flex-between{
-    /*margin-left: 35px;*/
+
+.content-inner{
     display: flex;
     justify-content: space-around;
 }
-.content-title{
-    font-size: 26px;
-}
-.content-flex-between img{
+
+.content-inner img{
     width: 630px;
     height: 400px;
 }
@@ -173,16 +172,20 @@ a{
     font-size: 14px;
 }
 .content3-img{
+    width: 630px;
+    height: 400px;
     margin-left: 42px;
 }
 
 /* news
 ------------------------------- */
 .news{
+    max-width: 1400px;
+    width: 60%;
+
     margin-top: 206px;
     margin-left: auto;
     margin-right: auto;
-    width: 60vw
 }
 .news-title{
     text-align: center;
@@ -200,8 +203,13 @@ a{
     font-size: 14px;
 }
 .news-items li span{
-    margin-right: 107px;
+    margin-right: 5%;
     color: #9B9B9B;
+    width:  15%;
+}
+.news-items li div{
+    color: #9B9B9B;
+    width: 80%;
 }
 /* banner
 ------------------------------- */
@@ -212,6 +220,7 @@ a{
 .banner-content{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .banner-content a{
     color: black;
@@ -235,19 +244,21 @@ a{
 ------------------------------- */
 .contact{
     background-color: #EBEBEB;
-    width: 100vw;
-    height: 289px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #707070;
 }
 .contact-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
+    width: 80%;
 }
 .company-info{
-    margin-left: 263px;
+    display: flex;
+    flex-direction: column;
     margin-top: 77px;
-    margin-bottom: 27px;
 }
 .company{
     margin-bottom: 27px;
@@ -263,7 +274,6 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 273px;
 }
 .contact-items li {
     list-style: none;
@@ -294,3 +304,64 @@ footer{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
+
+@media screen and (max-width:768px){
+    .content-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content1 {
+        margin-top: 50px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .content2{
+        margin-top: 100px;
+    }
+
+    .content-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        width: 630px;
+        height: 281px;
+    }
+    .content-text{
+        margin-left: 0;
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .content-text p{
+        font-size: 14px;
+    }
+    .content-title{
+        margin-top: 30px;
+    }
+
+    .content3-inner{
+
+        width: 630px;
+        height: 281px;
+        order:2;
+    }
+    .content3{
+        margin-top: 100px;
+    }
+    .content3-img{
+        width: 100%;
+        text-align: center;
+        order:1;
+        margin-left: 0;
+    }
+    .content3-text1 p{
+        margin-top: 16px;
+    }
+
+}
+
