@@ -254,11 +254,12 @@ a{
     align-items: center;
     margin: 0 auto;
     width: 80%;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 .company-info{
     display: flex;
     flex-direction: column;
-    margin-top: 77px;
 }
 .company{
     margin-bottom: 27px;
