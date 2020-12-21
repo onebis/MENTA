@@ -317,6 +317,9 @@ footer{
 
 /* スマホ */
 @media screen and ( max-width:375px){
+    .company-name{
+        font-size: 30px;
+    }
     .hum-menu{
         position: relative;
         height: 24px;
