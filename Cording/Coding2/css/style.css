@@ -28,6 +28,9 @@ a{
     text-transform: uppercase;
     color: #48bac2;
 }
+.drawer {
+    display: none;
+}
 .main-nav{
     list-style: none;
     display: flex;
@@ -48,20 +51,33 @@ a{
 /* top
 ------------------------------- */
 .top{
-    background-image: url("../images/back1.png");
-    height: 668px;
+    position: relative;
+    background: url("../images/back1.png");
+    max-width: 1366px;
+    width: 100%;
+    height: 0;
+    padding-top: 48.90190336749634%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: white;
 }
 .top-text{
-    margin: 0 auto;
-    width: 750px;
+    position:absolute; top:50%;left: 50%;transform: translateY(-50%) translateX(-50%);
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .top-text h2{
+    width: 80%;
     font-size: 44px;
     text-align: center;
-    padding-top: 243px;
 }
-.top-text p{
+.top-text span{
+    width: 80%;
     font-size: 22px;
     text-align: center;
     padding-top: 24px;
@@ -70,19 +86,29 @@ a{
 ------------------------------- */
 
 .greeting{
+    position: relative;
     background-image: url("../images/greeting_bg1.png");
-    height: 500px;
-    margin-bottom: 261px;
+    max-width: 1366px;
+    width: 100%;
+    height: 0;
+    padding-top: 36.60322108345534%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .greeting-text{
-    margin: 0 auto;
-    width: 555px;
+    position:absolute; top:50%;left: 50%;transform: translateY(-50%) translateX(-50%);
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .greeting-text h3{
     color: #48bac2;
     font-size: 40px;
     text-align: center;
-    padding-top: 70px;
 }
 .greeting-text p{
     font-size: 18px;
@@ -92,40 +118,38 @@ a{
 /* cards
 ------------------------------- */
 .cards{
-    /*display: flex;*/
-    /*justify-content: space-around;*/
-    /*flex-wrap: wrap;*/
-
-    height: 895px;
-    position: relative;
+    margin-top: 198px;
 }
 .card-content{
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    position: absolute;
-    top: -100px;
-}
-.cards{
     background-color: #f2ebf1;
 }
+
 .card{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    height: 600px;
     width: 358px;
-    height: 446px;
-    margin-bottom: 70px;
 }
 .card-img{
+    margin-top: -450px;
     background-color: #cccccc;
-    height: 240px;
+    height: 237px;
+    width: 360px;
 }
 .card-text{
     margin-top: 20px;
     margin-bottom: 38px;
     text-align: center;
 }
-.card a{
+.card > a{
+    display: block;
     text-align: center;
 }
 .card a img{
@@ -136,12 +160,16 @@ a{
 /* contact
 ------------------------------- */
 .contact{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 .contact-text{
-    width: 686px;
+    width: 100%;
     height: 515px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
 }
 .content-logo{
     margin-top: 90px;
@@ -150,26 +178,33 @@ a{
     font-weight: bold;
     color: #48bac2;
     font-size: 28px;
+    width: 100%;
+
 }
 .contact-items{
     display: flex;
-    /*padding-bottom: 48px;*/
-
+    width: 100%;
 }
 .contact-th {
     padding-top: 21px;
-    /*padding-bottom: 21px;*/
+    display:inline-block;
+    position:relative;
+}
+.contact-th:after{
+    content:"";
+    display:inline-block;
+    width:3px;
+    height:275px;
+    background-color:#0097A7;
+    position:absolute;
+    top:-2px;
+    right:-5px;
 }
 .contact-th p{
     font-size: 18px;
     width: 165px;
     text-transform: uppercase;
     margin-bottom: 20px;
-}
-.v_line_fix {
-    width: 2px;
-    height: 275px;
-    background-color: #cccccc;
 }
 .contact-item{
     margin-left: 27px;
@@ -183,7 +218,7 @@ a{
 }
 .contact-bg{
     background-color: #cccccc;
-    width: 686px;
+    width: 100%;
     height: 515px;
 }
 
@@ -222,23 +257,207 @@ a{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
-    width: 395px;
+    width: 50%;
 }
 .footer-menu li{
-    /*margin-right: 33px;*/
     font-size: 14px;
+    width: 100%;
+    position:relative;
+    display:inline-block;
+}
+.footer-menu li:after{
+    content:"";
+    display:inline-block;
+    height:14px;
+    width: 1px;
+    background-color: white;
+    position:absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%) translateX(-50%);
+}
+.footer-menu li:nth-last-of-type(1):after{
+    content: none;
 }
 .footer-menu li a{
     color: white;
     text-transform: uppercase;
 }
-.v_line_contact{
-    width: 1px;
-    background-color: white;
-}
 .copy-right{
     font-size: 12px;
     margin-top: 44px;
     margin-bottom: 40px;
+}
+.footer-menu-sp{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    /* header
+    ------------------------------- */
+    .main-nav{
+        display: none;
+    }
+    .drawer {
+        display: block;
+    }
+    .drawer-open {
+        margin-right: 50px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+        cursor: pointer;
+    }
+    .drawer-open span,
+    .drawer-open span:before,
+    .drawer-open span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background: #333;
+        transition: 0.5s;
+        position: absolute;
+    }
+    .drawer-open span:before {
+        bottom: 8px;
+    }
+    .drawer-open span:after {
+        top: 8px;
+    }
+
+
+
+    .top-text span{
+        display: none;
+    }
+    .greeting-text p{
+        display: none;
+    }
+
+    /* card
+    ------------------------------- */
+    .cards{
+        margin-top: 198px;
+    }
+    .card-content{
+        width: 100%;
+    }
+    .card{
+        display: block;
+        width: 80%;
+        margin-top: 0px;
+    }
+    .card-img{
+        margin-top: -150px;
+        width: 100%;
+        height: 0;
+        padding-top: 65.83333333333333%;
+    }
+    /* contact
+    ------------------------------- */
+    .contact{
+        background-color: #cccccc;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    .contact-bg{
+        display: none;
+    }
+    .content-logo{
+        width: 90%;
+
+    }
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .contact-items{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+    .contact-th {
+        width: 100%;
+    }
+    .contact-th:after{
+        content:"";
+        display:inline-block;
+        width:3px;
+        height:275px;
+        background-color:#0097A7;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    .contact-th p{
+        font-size: 18px;
+        width: 100%;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .contact-item{
+        width: 100%;
+        margin-left: 10px;
+        padding-top: 21px;
+    }
+
+    /* footer
+    ------------------------------- */
+    .footer-wrapper{
+        height: 100%;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .footer-menu-sp{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        justify-content: center;
+        /*align-items: center;*/
+        margin: 0 auto;
+        width: 100%;
+        background-color: white;
+    }
+    .footer-menu-sp li{
+        font-size: 14px;
+        width: 100%;
+        height: 50px;
+        position:relative;
+        display:inline-block;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        line-height: 50px;
+    }
+    .footer-menu-sp li:first-child{
+        border: 1px solid black;
+    }
+    .footer-menu-sp li a{
+        display: block;
+        color: #0097A7;
+        text-transform: uppercase;
+    }
+    .fooer-address{
+        margin-top: 20px;
+    }
+    .copy-right{
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+
 }
