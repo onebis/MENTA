@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="">
+    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="viewport修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coding1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coding2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coding2/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript デバッグ.index.html (2)">
@@ -68,6 +64,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\minoruhoriuchi\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="" />
@@ -81,8 +80,17 @@
       <workItem from="1605659816992" duration="3472000" />
       <workItem from="1606038006425" duration="21946000" />
       <workItem from="1606102189154" duration="1135000" />
-      <workItem from="1608612864052" duration="14088000" />
+      <workItem from="1608612864052" duration="14802000" />
+      <workItem from="1608706781032" duration="1146000" />
     </task>
+    <task id="LOCAL-00001" summary="viewport修正">
+      <created>1608707128959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608707128959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +107,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="viewport修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewport修正" />
   </component>
 </project>
