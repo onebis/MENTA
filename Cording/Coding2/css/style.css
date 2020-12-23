@@ -16,13 +16,16 @@ a{
 /* ナビゲーション
 ------------------------------- */
 .header-content{
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    margin-left: 111px;
+.header-inner{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
 }
 .logo a{
     text-transform: uppercase;
@@ -44,9 +47,6 @@ a{
 .main-nav li a{
     color: #48bac2;
     text-transform: uppercase;
-}
-.main-nav-img{
-    margin-right: 114px;
 }
 /* top
 ------------------------------- */
@@ -304,7 +304,6 @@ a{
         display: block;
     }
     .drawer-open {
-        margin-right: 50px;
         display: flex;
         height: 60px;
         width: 60px;

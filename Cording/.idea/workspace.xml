@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="viewport修正">
+    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="コミットテスト">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coding2/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RunManager" selected="JavaScript デバッグ.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cording/Coding4/index.html" useBuiltInWebServerPort="true">
