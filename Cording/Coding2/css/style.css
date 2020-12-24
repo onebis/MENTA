@@ -331,11 +331,14 @@ a{
     .drawer-open span:after {
         top: 8px;
     }
-
-
-
+    .top-text h2{
+        font-size: 36px;
+    }
     .top-text span{
         display: none;
+    }
+    .greeting-text h3{
+        font-size: 32px;
     }
     .greeting-text p{
         display: none;
@@ -352,10 +355,10 @@ a{
     .card{
         display: block;
         width: 80%;
-        margin-top: 0px;
+        margin-top: -150px;
     }
     .card-img{
-        margin-top: -150px;
+        margin-top: 0px;
         width: 100%;
         height: 0;
         padding-top: 65.83333333333333%;
