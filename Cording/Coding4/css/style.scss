@@ -34,18 +34,21 @@ a{
 /* ナビゲーション
 ------------------------------- */
 
+.nav-wrapper-sp{
+    display: none;
+}
 .nav-wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 96px;
-    width: 1300px;
+    width: 75%;
     margin: 0 auto;
 
 
     & .main-nav {
         height: 96px;
-        width: 375px;
+        width: 100%;
         align-items: center;
         text-transform: uppercase;
         font-size: 15px;
@@ -153,48 +156,47 @@ a{
 /* footer
 ------------------------------- */
 .footer-wrapper{
-    width: 1200px;
-    height: 155px;
+    width: 75%;
+    margin: 0 auto;
+    height: 280px;
     display: flex;
 
     & .image{
-        width: 732px;
+        width: 70%;
         position: relative;
 
         & .bgA{
             position: absolute;
-            top: 175px;
-            left: 200px;
+            bottom: 0;
+            left: 0;
             background-color: #f5f0e9;
-            height: 220px;
-            width: 600px;
+            height: 80%;
+            width: 80%;
         }
         & .bgB{
             position: absolute;
-            top: 125px;
-            left: 230px;
+            bottom: 0;
+            left: 30px;
             background-color: #e2e2e2;
-            height: 270px;
-            width: 700px;
+            height: 100%;
+            width: 80%;
         }
     }
 
     & .footer-text{
-        margin-left: 237px;
-        margin-top: 157px;
+        width: 30%;
+        margin-top: 50px;
         & .title{
             font-size: 20px;
         }
         & .footer-title{
             font-size: 64px;
-            margin-bottom: -16px;
-            margin-top: -25px;
         }
         & .footer-sub{
             font-size: 18px;
         }
         & .footer-discover{
-            margin-top: 48px;
+            margin-top: 30px;
             font-size: 15px;
             border-bottom: 1px solid $cBlack;
             width: 55px;
@@ -206,4 +208,135 @@ a{
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    /* header
+    ------------------------------- */
+    .nav-wrapper{
+        display: none;
+    }
+
+    .drawer {
+        display: block;
+    }
+    .drawer-open {
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+        cursor: pointer;
+    }
+    .drawer-open span,
+    .drawer-open span:before,
+    .drawer-open span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background: #333;
+        transition: 0.5s;
+        position: absolute;
+    }
+    .drawer-open span:before {
+        bottom: 8px;
+    }
+    .drawer-open span:after {
+        top: 8px;
+    }
+
+
+    .nav-wrapper-sp{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 96px;
+        width: 75%;
+        margin: 0 auto;
+
+
+        & .main-nav {
+            height: 96px;
+            width: 100%;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+            & li{
+                list-style: none;
+                & a{
+                    color: $cBlack;
+                    &:hover{
+                        color: #019bdf;
+                    }
+                }
+            }
+        }
+    }
+
+    /* footer
+    ------------------------------- */
+    .footer-wrapper{
+
+        width: 100%;
+        margin: 0 auto;
+        //height: 280px;
+        height: 100%;
+        //display: flex;
+        display: block;
+        //flex-direction: column;
+
+        & .image{
+            width: 100vw;
+            height: 150px;
+
+            position: relative;
+
+            & .bgA{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: #f5f0e9;
+                width: 100%;
+            }
+            & .bgB{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        & .footer-text{
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            & .title{
+                font-size: 20px;
+            }
+            & .footer-title{
+                font-size: 64px;
+            }
+            & .footer-sub{
+                font-size: 18px;
+            }
+            & .footer-discover{
+                margin-top: 20px;
+                font-size: 15px;
+                border-bottom: 1px solid $cBlack;
+                width: 100%;
+                & a{
+                    color: $cBlack;
+                    &:hover{
+                        color: #019bdf;
+                    }
+                }
+            }
+        }
+    }
+
+
 }
