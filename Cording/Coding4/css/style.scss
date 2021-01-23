@@ -15,6 +15,10 @@ $fMainTitle: 186px;
 $fMainSub: 24px;
 $fMainText: 18px;
 
+$sp-fMainTitle: 90px;
+$sp-fMainSub: 12px;
+$sp-fMainText: 9px;
+
 /* 共通部分
 ------------------------------- */
 html {
@@ -309,6 +313,29 @@ a{
                         color: #019bdf;
                     }
                 }
+            }
+        }
+    }
+    /* メイン
+    ------------------------------- */
+    .main {
+        & .main-slider div img {
+            width: 100%;
+            height: 100%;
+        }
+
+        & .main-title {
+
+            & .main-primitive {
+                font-size: $sp-fMainTitle;
+            }
+
+            & .main-sub {
+                font-size: $sp-fMainSub;
+            }
+
+            & .main-sub-text {
+                font-size: $sp-fMainText;
             }
         }
     }

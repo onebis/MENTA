@@ -270,6 +270,22 @@ a {
     color: #019bdf;
   }
 
+  /* メイン
+  ------------------------------- */
+  .main .main-slider div img {
+    width: 100%;
+    height: 100%;
+  }
+  .main .main-title .main-primitive {
+    font-size: 90px;
+  }
+  .main .main-title .main-sub {
+    font-size: 12px;
+  }
+  .main .main-title .main-sub-text {
+    font-size: 9px;
+  }
+
   /* footer
   ------------------------------- */
   .footer-wrapper {
