@@ -21,11 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="コミットテスト">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding4/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding4/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -48,7 +57,7 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript デバッグ.index.html (3)">
+  <component name="RunManager" selected="JavaScript デバッグ.index.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cording/Coding4/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -58,14 +67,18 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cording/Coding3/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cording/Coding5/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cording/Coding1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript デバッグ.index.html (1)" />
+        <item itemvalue="JavaScript デバッグ.index.html (4)" />
         <item itemvalue="JavaScript デバッグ.index.html (3)" />
         <item itemvalue="JavaScript デバッグ.index.html (2)" />
-        <item itemvalue="JavaScript デバッグ.index.html (1)" />
         <item itemvalue="JavaScript デバッグ.index.html" />
       </list>
     </recent_temporary>
@@ -91,6 +104,12 @@
       <workItem from="1608706781032" duration="1839000" />
       <workItem from="1608717039494" duration="15000" />
       <workItem from="1610342451521" duration="9222000" />
+      <workItem from="1610494664700" duration="122000" />
+      <workItem from="1610753318207" duration="163000" />
+      <workItem from="1610753519564" duration="5123000" />
+      <workItem from="1610764346183" duration="29000" />
+      <workItem from="1611379965129" duration="456000" />
+      <workItem from="1611380429396" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="viewport修正">
       <created>1608707128959</created>

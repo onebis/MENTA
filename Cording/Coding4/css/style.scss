@@ -86,27 +86,33 @@ a{
         position: absolute;
     }
     & .main-title{
-        position: absolute;
-        top: 50%;
-        left: 40%;
-        transform: translateY(-50%) translateX(-50%) rotate(-5.1deg);
-        color: $cWhite;
-        font-size: $fMainTitle;
-        transform-origin: 50% 50%;
-    }
-    & .main-text{
-        position: absolute;
-        top: 60%;
-        left: 30%;
-        color: $cBlack;
-        width: 200px;
-        text-align: center;
 
-        & .main-sub{
+        & .main-primitive{
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translateY(-50%) translateX(-50%) rotate(-5.1deg);
+            color: $cWhite;
+            font-size: $fMainTitle;
+            transform-origin: 50% 50%;
+        }
+        & .main-sub {
+            position: absolute;
+            top: 61%;
+            left: 30%;
+            color: $cBlack;
+            width: 200px;
+            text-align: center;
             font-size: $fMainSub;
             margin-bottom: 45px;
         }
+
         & .main-sub-text{
+            position: absolute;
+            top: 70%;
+            left: 31%;
+            color: $cBlack;
+            text-align: center;
             font-size: $fMainText;
             border-bottom: 1px solid $cBlack;
             width: 165px;
@@ -117,8 +123,31 @@ a{
                 }
             }
         }
-
     }
+    //& .main-text{
+    //    position: absolute;
+    //    top: 60%;
+    //    left: 30%;
+    //    color: $cBlack;
+    //    width: 200px;
+    //    text-align: center;
+    //
+    //    & .main-sub{
+    //        font-size: $fMainSub;
+    //        margin-bottom: 45px;
+    //    }
+    //    & .main-sub-text{
+    //        font-size: $fMainText;
+    //        border-bottom: 1px solid $cBlack;
+    //        width: 165px;
+    //        & a{
+    //            color: $cBlack;
+    //            &:hover{
+    //                color: #019bdf;
+    //            }
+    //        }
+    //    }
+    //}
 }
 /* roll
 ------------------------------- */
@@ -160,6 +189,7 @@ a{
     margin: 0 auto;
     height: 280px;
     display: flex;
+
 
     & .image{
         width: 70%;
@@ -285,17 +315,17 @@ a{
 
         width: 100%;
         margin: 0 auto;
-        //height: 280px;
         height: 100%;
-        //display: flex;
-        display: block;
-        //flex-direction: column;
+        flex-direction: column;
+
+        //display: block;
+
 
         & .image{
             width: 100vw;
             height: 150px;
-
             position: relative;
+            order: 2;
 
             & .bgA{
                 position: absolute;
@@ -314,6 +344,7 @@ a{
             text-align: center;
             width: 100%;
             margin-top: 20px;
+            order: 1;
             & .title{
                 font-size: 20px;
             }
@@ -324,10 +355,9 @@ a{
                 font-size: 18px;
             }
             & .footer-discover{
-                margin-top: 20px;
                 font-size: 15px;
                 border-bottom: 1px solid $cBlack;
-                width: 100%;
+                margin: 20px auto;
                 & a{
                     color: $cBlack;
                     &:hover{

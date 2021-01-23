@@ -75,7 +75,7 @@ a {
 .main > img {
   position: absolute;
 }
-.main .main-title {
+.main .main-title .main-primitive {
   position: absolute;
   top: 50%;
   left: 40%;
@@ -84,27 +84,30 @@ a {
   font-size: 186px;
   transform-origin: 50% 50%;
 }
-.main .main-text {
+.main .main-title .main-sub {
   position: absolute;
-  top: 60%;
+  top: 61%;
   left: 30%;
   color: #333333;
   width: 200px;
   text-align: center;
-}
-.main .main-text .main-sub {
   font-size: 24px;
   margin-bottom: 45px;
 }
-.main .main-text .main-sub-text {
+.main .main-title .main-sub-text {
+  position: absolute;
+  top: 70%;
+  left: 31%;
+  color: #333333;
+  text-align: center;
   font-size: 18px;
   border-bottom: 1px solid #333333;
   width: 165px;
 }
-.main .main-text .main-sub-text a {
+.main .main-title .main-sub-text a {
   color: #333333;
 }
-.main .main-text .main-sub-text a:hover {
+.main .main-title .main-sub-text a:hover {
   color: #019bdf;
 }
 
@@ -272,12 +275,13 @@ a {
     width: 100%;
     margin: 0 auto;
     height: 100%;
-    display: block;
+    flex-direction: column;
   }
   .footer-wrapper .image {
     width: 100vw;
     height: 150px;
     position: relative;
+    order: 2;
   }
   .footer-wrapper .image .bgA {
     position: absolute;
@@ -294,6 +298,7 @@ a {
     text-align: center;
     width: 100%;
     margin-top: 20px;
+    order: 1;
   }
   .footer-wrapper .footer-text .title {
     font-size: 20px;
@@ -305,10 +310,9 @@ a {
     font-size: 18px;
   }
   .footer-wrapper .footer-text .footer-discover {
-    margin-top: 20px;
     font-size: 15px;
     border-bottom: 1px solid #333333;
-    width: 100%;
+    margin: 20px auto;
   }
   .footer-wrapper .footer-text .footer-discover a {
     color: #333333;
