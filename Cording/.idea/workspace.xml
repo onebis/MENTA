@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="コミットテスト">
+    <list default="true" id="ea6578a7-2e5e-487a-8346-341686624a2f" name="デフォルト変更リスト" comment="表示順序修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding4/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding4/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding4/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Coding4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ee3332d9-0b55-45e2-a1fa-29bb82a622a8" />
   </component>
   <component name="ProjectId" id="1kNC9W0NmdKNFPArCmbW3puZZmy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,7 +52,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="Push.Settings">
@@ -109,7 +110,8 @@
       <workItem from="1610753519564" duration="5123000" />
       <workItem from="1610764346183" duration="29000" />
       <workItem from="1611379965129" duration="456000" />
-      <workItem from="1611380429396" duration="1525000" />
+      <workItem from="1611380429396" duration="3512000" />
+      <workItem from="1611388963901" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="viewport修正">
       <created>1608707128959</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608707937391</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="表示順序修正">
+      <created>1611382038208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611382038208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <GitHub url="https://github.com">
         <option name="assignedIssuesOnly" value="true" />
@@ -149,7 +158,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="viewport修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="viewport修正" />
+    <MESSAGE value="表示順序修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="表示順序修正" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
