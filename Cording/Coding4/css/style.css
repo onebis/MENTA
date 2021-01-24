@@ -70,7 +70,7 @@ a {
 ------------------------------- */
 .main {
   position: relative;
-  height: 710px;
+  height: 100%;
 }
 .main .main-slider div img {
   width: 100%;
@@ -87,8 +87,9 @@ a {
 }
 .main .main-title .main-sub {
   position: absolute;
-  top: 61%;
-  left: 30%;
+  top: 68%;
+  left: 35%;
+  transform: translateY(-50%) translateX(-50%);
   color: #333333;
   width: 200px;
   text-align: center;
@@ -97,16 +98,16 @@ a {
 }
 .main .main-title .main-sub-text {
   position: absolute;
-  top: 70%;
-  left: 31%;
+  top: 77%;
+  left: 35%;
+  transform: translateY(-50%) translateX(-50%);
   color: #333333;
   text-align: center;
   font-size: 18px;
-  border-bottom: 1px solid #333333;
-  width: 165px;
 }
 .main .main-title .main-sub-text a {
   color: #333333;
+  border-bottom: 1px solid #333333;
 }
 .main .main-title .main-sub-text a:hover {
   color: #019bdf;
